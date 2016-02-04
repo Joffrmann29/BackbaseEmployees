@@ -14,6 +14,7 @@
 		B44D186C1C63AA560043AF2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B44D186A1C63AA560043AF2F /* LaunchScreen.storyboard */; };
 		B44D18771C63AA560043AF2F /* BackbaseEmployeesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44D18761C63AA560043AF2F /* BackbaseEmployeesTests.swift */; };
 		B44D18821C63AA560043AF2F /* BackbaseEmployeesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44D18811C63AA560043AF2F /* BackbaseEmployeesUITests.swift */; };
+		B44D18901C63AA7B0043AF2F /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44D188F1C63AA7B0043AF2F /* Employee.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		B44D187D1C63AA560043AF2F /* BackbaseEmployeesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BackbaseEmployeesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B44D18811C63AA560043AF2F /* BackbaseEmployeesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackbaseEmployeesUITests.swift; sourceTree = "<group>"; };
 		B44D18831C63AA560043AF2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B44D188F1C63AA7B0043AF2F /* Employee.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				B44D18611C63AA560043AF2F /* AppDelegate.swift */,
+				B44D188F1C63AA7B0043AF2F /* Employee.swift */,
 				B44D18631C63AA560043AF2F /* ViewController.swift */,
 				B44D18651C63AA560043AF2F /* Main.storyboard */,
 				B44D18681C63AA560043AF2F /* Assets.xcassets */,
@@ -193,6 +196,7 @@
 				TargetAttributes = {
 					B44D185D1C63AA560043AF2F = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = K4XCB84M6V;
 					};
 					B44D18711C63AA560043AF2F = {
 						CreatedOnToolsVersion = 7.2;
@@ -257,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B44D18641C63AA560043AF2F /* ViewController.swift in Sources */,
+				B44D18901C63AA7B0043AF2F /* Employee.swift in Sources */,
 				B44D18621C63AA560043AF2F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -397,6 +402,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = BackbaseEmployees/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = clutchMobileApps.BackbaseEmployees;
@@ -408,6 +414,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = BackbaseEmployees/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = clutchMobileApps.BackbaseEmployees;
