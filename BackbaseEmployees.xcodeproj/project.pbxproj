@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B42CD3711C63AFEE0007922F /* EmployeeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42CD3701C63AFEE0007922F /* EmployeeManager.swift */; };
+		B42CD3731C63D4280007922F /* EmployeeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42CD3721C63D4280007922F /* EmployeeDetailViewController.swift */; };
+		B42CD3751C63DF2D0007922F /* employee.png in Resources */ = {isa = PBXBuildFile; fileRef = B42CD3741C63DF2D0007922F /* employee.png */; };
+		B42CD3771C6428420007922F /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42CD3761C6428420007922F /* PhotoViewController.swift */; };
+		B42CD3791C642D7F0007922F /* MailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42CD3781C642D7F0007922F /* MailViewController.swift */; };
+		B42CD37B1C642D960007922F /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B42CD37A1C642D960007922F /* MessageUI.framework */; };
 		B44D18621C63AA560043AF2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44D18611C63AA560043AF2F /* AppDelegate.swift */; };
 		B44D18641C63AA560043AF2F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44D18631C63AA560043AF2F /* ViewController.swift */; };
 		B44D18671C63AA560043AF2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B44D18651C63AA560043AF2F /* Main.storyboard */; };
@@ -35,6 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B42CD3701C63AFEE0007922F /* EmployeeManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EmployeeManager.swift; path = ../EmployeeManager.swift; sourceTree = "<group>"; };
+		B42CD3721C63D4280007922F /* EmployeeDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeeDetailViewController.swift; sourceTree = "<group>"; };
+		B42CD3741C63DF2D0007922F /* employee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = employee.png; sourceTree = "<group>"; };
+		B42CD3761C6428420007922F /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		B42CD3781C642D7F0007922F /* MailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MailViewController.swift; sourceTree = "<group>"; };
+		B42CD37A1C642D960007922F /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		B44D185E1C63AA560043AF2F /* BackbaseEmployees.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BackbaseEmployees.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B44D18611C63AA560043AF2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B44D18631C63AA560043AF2F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B42CD37B1C642D960007922F /* MessageUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +92,7 @@
 		B44D18551C63AA560043AF2F = {
 			isa = PBXGroup;
 			children = (
+				B42CD37A1C642D960007922F /* MessageUI.framework */,
 				B44D18601C63AA560043AF2F /* BackbaseEmployees */,
 				B44D18751C63AA560043AF2F /* BackbaseEmployeesTests */,
 				B44D18801C63AA560043AF2F /* BackbaseEmployeesUITests */,
@@ -102,7 +116,12 @@
 				B44D18611C63AA560043AF2F /* AppDelegate.swift */,
 				B44D188F1C63AA7B0043AF2F /* Employee.swift */,
 				B44D18631C63AA560043AF2F /* ViewController.swift */,
+				B42CD3721C63D4280007922F /* EmployeeDetailViewController.swift */,
+				B42CD3761C6428420007922F /* PhotoViewController.swift */,
+				B42CD3781C642D7F0007922F /* MailViewController.swift */,
+				B42CD3701C63AFEE0007922F /* EmployeeManager.swift */,
 				B44D18651C63AA560043AF2F /* Main.storyboard */,
+				B42CD3741C63DF2D0007922F /* employee.png */,
 				B44D18681C63AA560043AF2F /* Assets.xcassets */,
 				B44D186A1C63AA560043AF2F /* LaunchScreen.storyboard */,
 				B44D186D1C63AA560043AF2F /* Info.plist */,
@@ -236,6 +255,7 @@
 				B44D186C1C63AA560043AF2F /* LaunchScreen.storyboard in Resources */,
 				B44D18691C63AA560043AF2F /* Assets.xcassets in Resources */,
 				B44D18671C63AA560043AF2F /* Main.storyboard in Resources */,
+				B42CD3751C63DF2D0007922F /* employee.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,8 +281,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B44D18641C63AA560043AF2F /* ViewController.swift in Sources */,
+				B42CD3791C642D7F0007922F /* MailViewController.swift in Sources */,
 				B44D18901C63AA7B0043AF2F /* Employee.swift in Sources */,
 				B44D18621C63AA560043AF2F /* AppDelegate.swift in Sources */,
+				B42CD3711C63AFEE0007922F /* EmployeeManager.swift in Sources */,
+				B42CD3731C63D4280007922F /* EmployeeDetailViewController.swift in Sources */,
+				B42CD3771C6428420007922F /* PhotoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -489,6 +513,7 @@
 				B44D18881C63AA560043AF2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B44D18891C63AA560043AF2F /* Build configuration list for PBXNativeTarget "BackbaseEmployeesTests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +522,7 @@
 				B44D188B1C63AA560043AF2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B44D188C1C63AA560043AF2F /* Build configuration list for PBXNativeTarget "BackbaseEmployeesUITests" */ = {
 			isa = XCConfigurationList;
@@ -505,6 +531,7 @@
 				B44D188E1C63AA560043AF2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

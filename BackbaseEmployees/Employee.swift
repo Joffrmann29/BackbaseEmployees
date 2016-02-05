@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 
 class Employee
 {
@@ -14,4 +15,15 @@ class Employee
     var surName = ""
     var email = ""
     var role = ""
+    var photo:UIImage
+    var dept = ""
+    
+    init(name: String, surName: String, email: String, role: String, photo: UIImage, dept: String) {
+        self.name = name
+        self.surName = surName
+        self.email = email
+        self.role = role
+        self.photo = photo
+        self.dept = dept
+    }
 }
